@@ -27,6 +27,7 @@ from .lightstripeffect import LightStripEffect
 from .lighttransition import LightTransition
 from .matter import Matter
 from .motionsensor import MotionSensor
+from .nightmode import NightMode
 from .overheatprotection import OverheatProtection
 from .reportmode import ReportMode
 from .temperaturecontrol import TemperatureControl
@@ -72,4 +73,5 @@ __all__ = [
     "OverheatProtection",
     "HomeKit",
     "Matter",
+    "NightMode",
 ]
